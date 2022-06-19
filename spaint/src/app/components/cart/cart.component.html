@@ -1,0 +1,116 @@
+<ng-container *ngIf="products.length !=0">
+    <div class="container">
+        <div class="card-table">
+            <div class="card-product">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Sr.No.</th>
+                            <th>Product Name</th>
+                            <th>Product Image</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>Qauntity</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of products , let i= index">
+                            <td>{{i+1}}</td>
+                            <td>{{item.title}}</td>
+                            <td><img src="{{item.image}}" id="image" alt=""></td>
+                            <td id="descript">{{item.description}} </td>
+                            <td id="price">{{item.price}}</td>
+                            <td style="width: 10%;">{{item.quantity}}</td>
+                            <td style="width: 10%;">{{item.total}}</td>
+                            <td><button (click)="removeProduct(item)" class="btn btn-danger"><i class="fas fa-trash"></i></button></td>                              
+                        </tr>
+                        <tr>
+                            <td colspan="4"></td>
+                            <td><button (click)="removeAllProduct()"  class="btn btn-danger">Empty Cart</button></td>
+                            <td><button routerLink="/products" class="btn btn-warning">Shop More</button></td>
+                            <td><button  class="btn btn-success"data-toggle="modal" data-target="#exampleModal">Check Out</button></td>
+                            <td><strong>Total: ${{allProducts}}</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</ng-container>
+
+
+
+<ng-container *ngIf= "products.length ==0">
+    <div class="container">
+        <div class="card">
+            <h4 class="card-title">My Cart</h4>
+        </div>
+        <div class="center">
+            <img src="https://getillustrations.com/packs/matilda-startup-illustrations/scenes/_1x/shopping,%20e-commerce%20_%20empty,%20shopping%20cart,%20items,%20products,%20zero,%20none_md.png" alt="">
+            <h5>Your Cart is Empty..!</h5>
+            <h6>Add item in Cart Now</h6>
+            <button routerLink="/products" class="btn btn-primary">Shop Now</button>
+        </div>
+    </div>
+    
+</ng-container>
+
+
+  
+<div class="modal fade" id="exampleModal"tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header ">
+          <h5 class="modal-title" id="exampleModalLabel">Make Payment</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body " style="background-color: aqua;">
+            <form #usersForm="ngForm" (ngSubmit)="collectdata(usersForm.value)" >
+
+                <label for="amount">Amount:</label>&nbsp;&nbsp;&nbsp;
+                <strong>${{allProducts}}</strong><br>
+              
+                <label for="mobilenumber">Mobile No:</label>
+                <input type="text" ngModel name="mobile" placeholder=" enter mobile number"><br>
+              
+                <label for="exampleInputEmail1">Email Id:</label>&nbsp;&nbsp;&nbsp;
+                <input type="email"  ngModel name="email" placeholder="Enter Email Id"><br>
+             
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-secondary" data-dismiss="modal">Cancel Order</button>
+                <button type="submit" class="btn btn-primary" >Pay Now</button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,143 @@
+.navbar{
+    background-color: green;
+}
+.form-control{
+    border-radius: 30px;
+    margin-left: 5px;
+    width: 462px;
+}
+.btn-primary{
+    background-color: darkblue;
+}
+#title{
+    font-size: 30px;
+    font-variant-caps: small-caps;
+    text-shadow: 1px 1px orangered;
+}
+#shipfast{
+    font-size: 30px;
+}
+#cartplus{
+    font-size:30px;
+}
+.search-icon{
+    position: absolute;
+    right: 44%;
+    color: blue;
+    top: 27%;
+    cursor: pointer;
+}
+#input{
+    width: 359px;
+    margin-left: 54px;
+}
+.cart-top{
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: cornsilk;
+    background-clip: border-box;
+    position: relative;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: .25rem;
+    width: 87%;
+}
+.row{
+    margin-right: -60px;
+}
+.items{
+    margin: 0px 15px;
+    text-align: center;
+}
+.items a:hover{
+    color: blue;
+    cursor: pointer;
+}
+#img1{
+    width: 157px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    border-radius: 6%;
+}
+#img2{
+    width: 69px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    border-radius: 6%;
+}
+#img3{
+    width: 81px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    border-radius: 6%;
+}
+#img4{
+    width: 103px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    border-radius: 6%;
+}
+#img5{
+    width: 118px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    border-radius: 6%;
+}
+.itemdata{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100ch ;
+}
+.card{
+    padding: 20px ;
+    margin: 40px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+}
+.card img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+
+}
+
+
+
+@media only screen and (max-width: 768px){
+    #shipfast{
+        font-size: 18px;
+
+    }
+    #title{
+        font-size: 21px;
+        margin-top: -7px;
+    }
+    #input{
+        width: 287px;
+        margin-left: -144px;
+        margin-top: 37px;
+    }
+    #searchicon{
+        display: flex;
+        margin-top: 29px;
+    }
+    #cartplus{
+        font-size: 52px;
+    }
+    #display{
+        flex-flow: wrap;
+    }
+    #img1{
+        width: 142px;
+        margin-top: 12px;
+    }
+
+
+
+    
+}

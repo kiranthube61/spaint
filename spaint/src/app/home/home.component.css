@@ -1,0 +1,453 @@
+/* .main{
+  padding-right: 169px;
+  padding-right: 169px;
+  position: absolute;
+} */
+.openf{
+    color: blueviolet;
+    font-variant-caps: petite-caps;
+    text-shadow: 0px 2px red;
+}
+ngb-carousel .wrapper {
+    position: relative;
+    height: 0;
+    padding-top: 55%; 
+  }
+  ngb-carousel .wrapper>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .onebtn{
+    margin-top: 33px;
+    background-color: green;
+    font-size: 27px;
+    
+  }
+  .onebtn:hover{
+    background-color: slateblue;
+    color: red;
+  }
+  #aboutus{
+    margin-left: 472px;
+  }
+  .abtus{
+    margin-left: 98px;
+    
+    margin-top: 71px;
+    font-family: fantasy;
+    font-size: 34px;
+    font-weight: bolder;
+  }
+  .abthead{
+    padding: 10px;
+    box-shadow: 1px 5px 40px -5px brown;
+    margin-left: 420px;
+    border: none;
+    color: red;
+    border-radius: 50%;
+    width: 82px;
+    font-variant-caps: petite-caps;
+    font-family: system-ui;
+  }
+  .para{
+    width: 552px;
+    margin-left: 365px;
+    padding-top: 15px;
+  }
+  #hr{
+    margin-top: -18px;
+    opacity: 0.2;
+    width: 88%;
+  }
+  #explore{
+    border: 1px solid yellow;
+    width: 35%;
+    margin-left: 112px;
+    margin-top: -9px;
+    background-color: lightsteelblue;
+    border-radius: 25%;
+  }
+  #chartitle{
+    margin-left: 123px;
+    margin-top: 60px;
+    font-size: 33px;
+    font-weight: bold;
+    font-variant-caps: petite-caps;
+  }
+  #hr1{
+    margin-top: -18px;
+    opacity: 0.2;
+    width: 88%;
+  }
+  .boxes{
+    padding-left: 250px;
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+    width: 83%;
+    padding-left: 100px;
+    margin-left: 33px;
+    box-shadow: 1px 3px 23px 1px lawngreen;
+    
+}
+.boxes2{
+    padding-left: 250px;
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+    width: 83%;
+    padding-left: 100px;
+    margin-left: 33px;
+    margin-top: 41px;  
+    box-shadow: 1px 3px 23px 1px skyblue;
+}
+.boxes3{
+    padding-left: 250px;
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+    width: 83%;
+    padding-left: 100px;
+    margin-left: 33px;
+    margin-top: 41px;  
+    box-shadow: 1px 3px 23px 1px lawngreen;
+}
+.chardata{
+    margin-top: 46px;
+    margin-top: 46px;
+    width: 65%;
+    margin-left: 298px;
+}
+#ch{
+    color: cornflowerblue;
+    font-family: ui-monospace;
+}
+#charts{
+    margin-left: 430px;
+}
+#location{
+    margin-left: 143px;
+    margin-top: 69px;
+    font-size: 33px;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+}
+/* #loc{
+  margin-left: 428px;
+} */
+#hr2{
+   margin-top: -18px;
+   opacity: 0.2;
+   width: 88%;
+}
+.studio{
+   font-size: x-large;
+   font-family: inherit;
+   font-variant-caps: small-caps;
+   color: crimson;
+}
+
+#map{
+  width: 50%;
+  border-radius: 3%;
+}
+#fashion{
+  width: 30%;
+  margin-top: -42px;
+  border-radius: 10%;
+}
+.getd{
+    background-color: #ff0000a3;
+    border-radius: 28%;
+    margin-top: 20px;
+    color: antiquewhite;
+}
+.getd:hover{
+  background-color: orchid;
+}
+#logof{
+  width: 32%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-decoration: none;
+  margin: 5px 2px; 
+ 
+}
+
+.fa:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 12px;
+  padding-right: 44px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 12px;
+  padding-right: 44px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 12px;
+  padding-right: 44px;
+}
+.fa-instagram {
+  background: #884412a1;
+  color: white;
+  border-radius: 12px;
+  padding-right: 44px;
+}
+#loc{
+  font-weight: bold;
+  margin-left: -146px;
+}
+#phone{
+  margin-left: -29px;
+  font-weight: bold;
+}
+#email{
+  font-weight: bold;
+}
+#add{
+  margin-left: 212px;
+  margin-top: -38px;
+  font-size: small;
+}#secr{
+  padding-top: 36px;
+}
+#lastl{
+  color: #28a745;
+  height: 3px;
+}
+#lastp{
+  font-variant-caps: petite-caps;
+}
+.part1{
+  margin-top: 19px;
+}
+.part2{
+  margin-top: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+  
+    .carousal{
+         margin-left: -35px;
+         margin-top: -1px;
+         width: 117%;
+   }
+
+    .openf{
+        
+        font-variant-caps: petite-caps;
+        text-shadow: 0px 1px red;
+    }
+    .onebtn{
+      margin-top: 11px;
+      margin-right: 26px;
+      width: 21%; 
+      font-size: smaller;
+    }
+    
+    .transbox{
+        width: 80%;
+        margin-left: 35px;
+    }
+    .abtus{
+        margin-left: 40px;
+        margin-top: 39px;
+        font-size: large;
+        font-weight: bolder;
+    }
+    .abthead{
+        box-shadow: 5px 10px 20px yellow inset;
+        width: 86px;
+        border: none;
+        color: crimson;
+        margin-left: 139px;
+        height: 85px;
+        padding-top: 2px;
+        border-radius: 50%;
+        padding-top: 14px;
+    }
+    .para{
+        width: 345px;
+        margin-left: 25px;
+        padding-top: 19px;
+       
+      }
+      #hr{
+        margin-top: -16px;
+        opacity: 0.2;
+        width: 80%;
+      }
+      #explore{
+        border: 1px solid #ff8d00;
+        width: 38%;
+        margin-left: 98px;
+        margin-top: -10px;
+        background-color: lightsteelblue;
+        border-radius: 25%;
+      }
+      #chartitle{
+        margin-left: 25px;
+        margin-top: 20px;
+        font-size: 20px;
+      }
+      #hr1{
+        margin-top: -16px;
+        opacity: 0.2;
+        width: 80%;
+      }
+      #k{
+        font-size: 13px;
+      }
+      .chardata{
+        margin-top: 20px;
+        width: 92%;
+        margin-left: 16px;
+      }
+      #ch{
+        color: cornflowerblue;
+        font-family: ui-monospace;
+        font-size: 20px;
+    }
+      .boxes{
+        border: 2px solid red;
+        border-radius: 12px;
+        padding: 5px;
+        width: 83%;
+        padding-left: 16px;
+        margin-left: 33px;
+        box-shadow: 1px 3px 23px 1px lawngreen;
+      }
+      .boxes2{
+        border: 2px solid red;
+        border-radius: 12px;
+        padding: 5px;
+        width: 83%;
+        padding-left: 16px;
+        margin-left: 33px;
+        box-shadow: 1px 3px 23px 1px skyblue;
+      }
+      .boxes3{
+        border: 2px solid red;
+        border-radius: 12px;
+        padding: 5px;
+        width: 83%;
+        padding-left: 16px;
+        margin-left: 33px;
+        box-shadow: 1px 3px 23px 1px lawngreen;
+      }
+      #location{
+        margin-left: 25px;
+        margin-top: 20px;
+        font-size: 20px;
+      }
+      #hr2{
+        margin-top: -16px;
+        opacity: 0.2;
+        width: 80%;
+      }
+      .studio{
+        font-size: initial;
+      }
+      #fashion{
+        margin-top: -24px;
+      }
+      #logof{
+        width: 55%;
+      }
+      .lastp{
+        width: 91%;
+        margin-right: -23px;
+        padding-left: 35px;
+      }
+      .fa-twitter{
+        font-size: 24px;
+        font-weight: bolder;
+        padding: 8px 11px 10px 12px;
+        
+      }
+      .fa-facebook{
+        font-size: 24px;
+        font-weight: bolder;
+        padding: 8px 11px 10px 12px;
+      }
+      .fa-instagram{
+        font-size: 24px;
+        font-weight: bolder;
+        padding: 8px 11px 10px 12px;
+      }
+      .fa-linkedin{
+        font-size: 24px;
+        font-weight: bolder;
+        padding: 8px 11px 10px 12px;
+      }
+      .part1{
+        padding-top: 12px;
+        font-size: x-small;
+        margin-left: -104px;
+      }
+      .part2{
+         font-size: x-small;
+          padding-top: 12px;
+          margin-left: 72px;
+          margin-top: -204px;
+      }
+      #p1{
+        width: 34%;
+        margin-left: 118px;
+      }
+      #p2{
+        width: 34%;
+        margin-left: 112px;
+      }
+      #loc{
+        margin-left: -237px;
+      }
+      #email{
+        margin-left: -87px;
+        margin-top: -17px;
+      }
+      #phone{
+        margin-left: -126px;
+      }
+      #add{
+        font-size: small;
+        margin-left: 97px;
+        margin-top: -36px;
+        width: 60%;
+      }
+      #lastp{
+        font-size: 13px;
+        margin-top: -5px;
+      }
+      .main{
+        margin-right: -24px;
+      }
+
+    
+}

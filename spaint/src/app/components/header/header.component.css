@@ -1,0 +1,21 @@
+.form-control{
+    border-radius: 30px;
+    margin-left: 5px;
+    width: 462px;
+}
+#title{
+    font-size: 30px;
+    font-variant-caps: small-caps;
+    text-shadow: 1px 1px orangered;
+}
+.search-icon{
+    position: absolute;
+    right: 44%;
+    color: blue;
+    top: 27%;
+    cursor: pointer;
+}
+#input{
+    width: 359px;
+    margin-left: 54px;
+}

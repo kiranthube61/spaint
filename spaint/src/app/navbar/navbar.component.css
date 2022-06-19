@@ -1,0 +1,26 @@
+#collapsibleNavbar{
+    justify-content: flex-end;
+}
+#eric{
+    font-size: 26px;
+    color: cornsilk;
+    font-variant-caps: petite-caps;
+}
+.navbar-brand{
+    margin-left: 148px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .navbar-nav{
+        margin-left: 145px;
+    }
+    #eric{
+      font-size: 18px;
+    }
+    .navbar-brand{
+        margin-left: 40px;
+    }
+
+}

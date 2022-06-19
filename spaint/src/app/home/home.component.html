@@ -1,0 +1,150 @@
+<div class="main">
+    <div class="row ">
+      <div class="col-md" style="margin-left: -44px; "></div>
+      <div class="col-md-12">
+        <div class="transbox text-center">
+          <ngb-carousel class="carousal">
+            <ng-template ngbSlide *ngFor="let image of images">
+              <div class="wrapper">
+                <img [src]="image.src" alt="Random first slide">
+              </div>
+              <div class="carousel-caption">
+                <h3>{{ image.title }}</h3>
+                <p>{{ image.short }}</p>
+              </div>
+            </ng-template>
+          </ngb-carousel>
+        </div>
+      </div>
+      <div class="col-md"></div>
+    </div>
+    
+    <div class="row">
+      <div class="text-center">
+        <button  type="button" class="btn btn-primary onebtn"routerLink="/products">Shop Now</button>
+      </div>
+    
+    </div>
+    <div class="row">
+      <div class="container abtus">
+        <p id="aboutus">About Us</p><hr id="hr">
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="text-center abthead">
+        <p>Open <br>Fashion</p>
+      </div>
+    </div> -->
+    <div class="row">
+      <div class="text-center para">
+        <h6 style=" font-weight: 300;">"Lorem ipsum dolor sit amet, 
+          consectetur adipiscing elit,  sed do eiusmod tempor incididun
+           ut labore et dolore magna aliqua.Ut enim ad minim veniam, 
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+           ea commodo consequat. sunt in culpa qui 
+            officia deserunt mollit anim id est laborum."</h6>
+            <p style="font-style:italic  ;">Ut enim ad minim veniam, 
+              quis nostrud exercitation 
+              ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur.</p>
+              <details>
+                <summary>Explore More</summary>
+                <p>Epcot is a theme park at Walt Disney World Resort 
+                  featuring exciting attractions, international pavilions,
+                   award-winning fireworks and seasonal special events.</p>
+              </details>
+      </div>
+    </div>
+    <div class="row">
+      <div id="chartitle">
+        <p id="charts">Characteristic</p><hr id="hr1">
+      </div>
+    </div>
+    <div class="row chardata">
+      <div class="row boxes">
+        <h3 id="ch">STYLE GUIDE INCLUE</h3>
+        <p id="k">Style guidehelp you to create your own design</p>
+      </div>
+      <div class="row boxes2">
+        <h3 id="ch">VARIANT COMPONENTS</h3>
+        <p id="k"> All components are variant, easy to design</p>
+      </div>
+      <div class="row boxes3">
+        <h3 id="ch">Color Style Components</h3>
+        <p id="k">All color in open Fashion are styled .U can change design color one click</p>
+      </div>
+    </div>
+    <div class="row">
+      <div id="location">
+        <p style="margin-left: 428px;">Location</p><hr id="hr2">
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center studio">
+        <p>Studio Fashion Hub</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center ">
+        <img id="map" src="assets/images/map.jpg">
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center ">
+        <img id="fashion" src="assets/images/fashion.webp">
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center ">
+        <button type="button" class="getd"> Get Direction </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center">
+        <img id="logof" src="assets/images/logof.jpg">
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center lastp">
+        <p>Ready in just 2 minutes,share with your customers & start accepting payments</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center icons">
+        <i class="fa fa-twitter fa-5x"></i>
+        <i class="fa fa-facebook fa-5x"></i>
+        <i class="fa fa-instagram fa-5x"></i>
+        <i class="fa fa-linkedin fa-5x"></i>
+      </div>
+    </div>
+    <div class="container " style="background-color: rgb(28, 59, 59); color:white;margin-top: 15px; ">
+      <div class="row text-center foot"> 
+        <div class="col-md-1"></div>
+        <div class="col-md-2 part1">
+          <a style="cursor: pointer;">About Us</a><hr id="p1">
+          <a style="cursor: pointer;">Our Features</a><hr id="p1">
+          <a style="cursor: pointer;">Our Pricing</a><hr id="p1">
+          <a style="cursor: pointer;">Privacy Policy</a><hr id="p1">
+        </div> 
+        <div class="col-md-2 part2">
+          <a style="cursor: pointer;">FAQ's</a> <hr id="p2">
+          <a style="cursor: pointer;">Contact Us</a><hr id="p2">
+          <a style="cursor: pointer;">Our Blog</a><hr id="p2">
+          <a style="cursor: pointer;">Products</a><hr id="p2">
+        </div>
+        
+        <div class="col-md-6" id="secr">
+          <p id="loc">Location:</p>
+          <p id="add">Trade Center,B-404,Koregaon Park, North Main Road,Pune,India -411001</p>
+          <p id="email">Email:&nbsp;&nbsp;<a href="" style="font-style: oblique;">connect@spiderg.com</a></p>
+          <p id="phone">Phone:&nbsp;&nbsp;<a href="" style="font-style: oblique;">+91-8262843544</a></p>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+      <hr id="lastl">
+      <div class="row text-center">
+        <p id="lastp">@ Copyright 2021 Gladiris Technologies Pvt Ltd</p>
+      </div>
+  </div>
+  <router-outlet></router-outlet>

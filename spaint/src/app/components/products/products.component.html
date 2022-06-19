@@ -1,0 +1,70 @@
+<header class="container">
+    <div class="navbar navbar-dark  shadow-sm">
+      <div class="navbar-brand align-item-center d-flex">
+        <i id="shipfast" class='fas fa-shipping-fast'></i>
+        <strong id="title">Open Fashion</strong>
+        <div class="form-group">
+          <input id="input" type="text" class="form-control" placeholder="search product">
+        </div>
+        <span class="fas fa-search search-icon" id="searchicon"></span>
+      </div>
+      <button routerLink="/cart" class="btn btn-primary">
+        <i class="fas fa-cart-plus" id="cartplus"></i>
+        <div class="badge bg-danger">{{totalItemNumber}}</div>
+      </button>
+    </div>
+  </header>
+
+<div class="cart-top container">
+    <div class="container d-flex" id="display">
+        <div class="items">
+            <a>
+                <img id="img1" src="https://img.freepik.com/free-photo/product-package-boxes-shopping-bag-cart-with-laptop-online-shopping-delivery-concept_38716-138.jpg?size=626&ext=jpg">
+                <h2>All Products</h2>
+            </a>
+        </div>
+        <div class="items">
+            <a>
+                <img id="img2" src="https://image.winudf.com/v2/image1/Y29tLmFuZGlhcHBzLmxhdGVzdC5tZW4uZmFzaGlvbi5jbG90aGVzLnN0eWxlX3NjcmVlbl8zXzE1NzA0NTkzNDZfMDcw/screen-6.jpg?fakeurl=1&type=.jpg">
+                <h4>Mens</h4>
+            </a>        
+        </div>
+        <div class="items">
+            <a>
+                <img id="img3" src="https://5.imimg.com/data5/PB/QQ/SO/ANDROID-96509073/product-jpeg-500x500.jpg">
+                <h4>Womens</h4>
+            </a>
+        </div>
+        <div class="items">
+            <a>
+                <img id="img4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCZIOcTuR6a4_7LpnXzYNivP0SFk6vswZydA&usqp=CAU">
+                <h4>Jewllary</h4>
+            </a>
+        </div>
+        <div class="items">
+            <a>
+                <img id="img5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbRS7vSHlLKJRY2dP_E1mmCbPj7S9Mnk24MQ74cZafDqpZXsewcCsw96JmyZLf5mmr5HQ&usqp=CAU">
+                <h4>Electronics</h4>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let item of productList "  >
+            <div class="card col-md-3">
+                <img src="{{item.image}}">
+                <h5 class="itemdata">{{item.title}}</h5>
+                <p class="itemdata">{{item.description}}</p>
+                <p><strong>Price:</strong>${{item.price}}</p>
+                <p>{{item.category}}</p>
+                
+                <button class="btn btn-primary" (click)="addtoCart(item)">Add To Cart</button>
+            </div>
+        </ng-container>  
+    </div>
+</div>
+<router-outlet></router-outlet>
+
+
